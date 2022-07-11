@@ -1,0 +1,432 @@
+.woocommerce{
+    .woocommerce-MyAccount-navigation{
+        float: none;
+        width: 100%;
+
+        ul{
+            margin: auto;
+            margin-bottom: 20px;
+            padding: 0;
+            list-style: none;
+            width: max-content;
+
+            li{
+                display: inline-block;
+                padding: 10px 20px;
+
+                a{
+                    font-weight: 500;
+                    font-size: 1.4rem;
+                    text-decoration: none;
+                    color: #909097;
+                }
+            }
+
+            .is-active{
+                a{
+                    color: #23232c;
+                }
+            }
+
+            .woocommerce-MyAccount-navigation-link--downloads{
+                display: none;
+            }
+
+            .woocommerce-MyAccount-navigation-link--customer-logout{
+                display: none;
+            }
+        }
+    }
+
+    .woocommerce-MyAccount-content{
+        float: none;
+        width: 100%;
+
+        .woocommerce-message.woocommerce-message--info.woocommerce-Message.woocommerce-Message--info.woocommerce-info{
+            font-weight: 500;
+            font-size: 1.4rem;
+            color: #909097;
+            line-height: 2;
+
+            a{
+                background-color: #1e85be;;
+                font-weight: 500;
+                font-size: 1.4rem;
+                color: #fff;
+            }
+
+            &::before{
+                content: none;
+            }
+        }
+
+        .woocommerce-order-details{
+            h2{
+                margin-bottom: 20px;
+                font-size: 2.5rem;
+                font-weight: 400;
+            }
+
+            .woocommerce-table.woocommerce-table--order-details.shop_table.order_details{
+                border: 0;
+                border-radius: 0;
+                border-spacing: 0;
+
+                thead{
+                    tr{
+                        th{
+                            padding: 20px 0;
+                            font-size: 1.4rem;
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                tbody{
+                    tr{
+                        td{
+                            padding: 20px 0;
+                            font-size: 1.4rem;
+                            font-weight: 400;
+
+                            span{
+                                bdi{
+                                    font-size: 1.6rem;
+                                    font-weight: 400;
+                                    color: #212529;
+
+                                    span{
+                                        font-size: 1.6rem;
+                                        font-weight: 400;
+                                        color: #212529;
+                                    }
+                                }
+                            }
+
+                            a{
+                                text-decoration: none;
+                                font-size: 1.6rem;
+                                font-weight: 400;
+                                color: #212529;
+                            }
+
+                            strong{
+                                font-size: 1.6rem;
+                                font-weight: 400;
+                                color: #909097;
+                            }
+
+                            ul{
+                                padding: 0;
+
+                                li{
+                                    strong{
+                                        font-size: 1.6rem;
+                                        font-weight: 400;
+                                        color: #212529;
+                                    }
+
+                                    p{
+                                        font-size: 1.6rem;
+                                        font-weight: 400;
+                                        color: #212529;
+                                        text-align: left;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                tfoot{
+                    tr{
+                        th{
+                            padding: 20px 0;
+                            font-size: 1.6rem;
+                            font-weight: 500;
+                        }
+
+                        td{
+                            padding: 20px 0;
+                            font-size: 1.6rem;
+                            font-weight: 500;
+
+                            span{
+                                font-size: 1.6rem;
+                                font-weight: 500;
+
+                                span{
+                                    font-size: 1.6rem;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .woocommerce-orders-table.woocommerce-MyAccount-orders.shop_table.shop_table_responsive.my_account_orders.account-orders-table{
+            border-spacing: 0;
+            border: 0;
+            border-radius: 0;
+
+            thead{
+                tr{
+                    th{
+                        padding: 20px 0;
+
+                        span{
+                            font-size: 1.5rem;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+
+            tbody{
+                tr{
+                    td{
+                        padding: 20px 0;
+                        font-size: 1.4rem;
+                        font-weight: 400;
+
+                        a{
+                            font-size: 1.4rem;
+                            font-weight: 400;
+                            text-decoration: none;
+                            color: #23232c;
+                        }
+
+                        time{
+                            font-size: 1.4rem;
+                            font-weight: 400;
+                        }
+
+                        span{
+                            font-size: 1.4rem;
+                            font-weight: 400;
+
+                            span{
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        .u-columns.woocommerce-Addresses.col2-set.addresses{
+            .u-column1.col-1.woocommerce-Address{
+                display: none;
+            }
+
+            .u-column2.col-2.woocommerce-Address{
+                float: none;
+                margin: auto;
+
+                .woocommerce-Address-title.title{
+                    overflow: auto;
+                    margin-bottom: 20px;
+
+                    h3{
+                        float: left;
+                    }
+
+                    a{
+                        float: right;
+                        text-decoration: none;
+                        background-color: #23232c;
+                        color: #fff;
+                        line-height: 25px;
+                        min-width: 50px;
+                        text-align: center;
+                        font-size: 1.1rem;
+                        font-weight: 400;
+                    }
+                }
+
+                address{
+                    font-size: 1.2rem;
+                    font-weight: 400;
+                    line-height: 2;
+                }
+            }
+        }
+
+        p{
+            text-align: center;
+            margin-bottom: 30px;
+            font-weight: 500;
+            font-size: 1.4rem;
+            color: #909097;
+
+            mark{
+                font-size: 1.6rem;
+                font-weight: 400;
+            }
+
+            strong{
+                font-weight: 500;
+                font-size: 1.4rem;
+                color: #23232c;
+            }
+
+            a{
+                font-weight: 500;
+                font-size: 1.4rem;
+                text-decoration: none;
+                color: red;
+            }
+        }
+
+        .woocommerce-EditAccountForm.edit-account{
+            width: 50%;
+            margin: auto;
+
+            fieldset{
+                label{
+                    margin-right: 20px;
+                }
+            }
+        }
+
+        form{
+            width: 40%;
+            margin: auto;
+
+            h3{
+                text-align: center;
+            }
+
+            .woocommerce-address-fields{
+                .woocommerce-address-fields__field-wrapper{
+                    p{
+                        width: 100%;
+                        display: block;
+                        overflow: hidden;
+
+                        label{
+                            float: left;
+                            width: 30%;
+                        }
+
+                        select{
+                            width: 70%;
+                        }
+
+                        span{
+                            float: left;
+                            width: 70% !important;
+
+                            span{
+                                width: 100% !important;
+
+                                span{
+                                    b{
+                                        left: 96%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .u-columns.col2-set{
+        .u-column1{
+            width: 50%;
+            max-width: 50%;
+
+            h2{
+                font-size: 2.5rem;
+                font-weight: 500;
+            }
+
+            .woocommerce-form{
+                p{
+                    font-size: 1.4rem;
+                    font-weight: 400;
+
+                    label{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        margin-right: 10px;
+                        margin-top: 5px;
+
+                        span{
+                            font-size: 1.2rem;
+                            font-weight: 400;
+                        }
+                    }
+
+                    span{
+                        position: relative;
+
+                        span{
+                            &::after{
+                                position: absolute;
+                                top: -21px;
+                                right: 0;
+                            }
+                        }
+                    }
+
+                    button{
+                        margin-left: 20px;
+                    }
+
+                    a{
+                        font-size: 1.2rem;
+                        font-weight: 400;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .u-column2{
+            width: 50%;
+            max-width: 50%;
+
+            h2{
+                font-size: 2.5rem;
+                font-weight: 500;
+            }
+
+            .woocommerce-form{
+                p{
+                    font-size: 1.4rem;
+                    font-weight: 400;
+
+                    label{
+                        font-size: 1.4rem;
+                        font-weight: 400;
+                        margin-right: 10px;
+                        margin-top: 5px;
+
+                        span{
+                            font-size: 1.2rem;
+                            font-weight: 400;
+                        }
+                    }
+
+                    span{
+                        position: relative;
+
+                        span{
+                            &::after{
+                                position: absolute;
+                                top: -21px;
+                                right: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

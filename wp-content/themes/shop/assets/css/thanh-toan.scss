@@ -1,0 +1,764 @@
+.entry-content{
+    .woocommerce{
+        .woocommerce-coupon-form.woocommerce-form-coupon-toggle{
+            margin-bottom: 30px;
+
+            .woocommerce-form-coupon-toggle{
+                margin-bottom: 30px;
+    
+                .woocommerce-info{
+                    font-size: 1.4rem;
+                    font-weight: 500;
+                    color: #909097;
+                    text-align: center;
+                    border: 2px solid #f1f2f4;
+                    padding: 25px 0!important;
+                    margin: 0!important;
+                    background-color: #fff;
+    
+                    a{
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                        text-decoration: none;
+                        color: #23232c;
+                        text-transform: uppercase;
+                    }
+    
+                    &::before{
+                        content: none;
+                    }
+                }
+            }
+    
+            .checkout_coupon.woocommerce-form-coupon{
+                border: 0;
+                padding: 0;
+                display: flex;
+                margin: 2em 0;
+    
+                .form-row.form-row-first{
+                    padding-right: 10px;
+                    padding: 3px;
+                    margin: 0 0 6px;
+                    font-weight: 400;
+                    color: #7c7c80;
+                    font-size: 1.4rem;
+                    flex: 1;
+    
+                    .input-text{
+                        outline: none;
+                        border-radius: 0;
+                        padding: 8px 0 9px;
+                        width: 100%;
+                        border: 0;
+                        border-bottom: 2px solid #f1f2f4;
+    
+                        &:focus{
+                            border-bottom-color: #23232c;
+                        }
+                    }
+                }
+    
+                .form-row.form-row-last{
+                    padding: 3px;
+                    margin: 0 0 6px;
+                    font-weight: 400;
+                    color: #7c7c80;
+                    font-size: 1.4rem;
+                    width: auto;
+    
+                    button{
+                        font-size: 1.4rem;
+                        color: #23232c;
+                        font-weight: 500;
+                        background-color: transparent;
+                        text-transform: uppercase;
+                        min-height: 0;
+                        min-width: 0;
+                        line-height: 1;
+                        padding: 12px 0;
+                        border-bottom: 2px solid #23232c;
+                        border-radius: 0;
+    
+                        &:focus{
+                            outline: none;
+                            border: 0;
+                            border-bottom: 2px solid #23232c;
+                            border-radius: 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        .checkout.woocommerce-checkout{
+            overflow: auto;
+
+            .woocommerce-NoticeGroup.woocommerce-NoticeGroup-checkout{
+                padding: 20px 20px 20px 80px!important;
+                margin: 20px 0!important;
+                border: none;
+                background-color: #ffd0d0;
+
+                .woocommerce-error{
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    background-color: #ffd0d0;
+
+                    &::before{
+                        content: none;
+                    }
+
+                    li{
+                        color: #d45757;
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                        line-height: 2.14286;
+                        
+                        strong{
+                            color: #d45757;
+                            font-size: 1.4rem;
+                            font-weight: 700;
+                        }
+                    }
+                }
+            }
+
+            .check{
+                float: left;
+
+                h3{
+                    font-size: 2.4rem;
+                    color: #23232c;
+                    font-weight: 400;
+                    margin: 0;
+                    padding-bottom: 30px;
+                }
+
+                .col2-set{
+                    border: 0;
+                    padding: 10px 0;
+
+                    .col-1{
+                        border-bottom: 1px solid #eaebee;
+                        float: none;
+                        width: 100%;
+                        max-width: 100%;
+                        padding: 0;
+
+                        .woocommerce-billing-fields{
+                            h3{
+                                display: none;
+                            }
+
+                            #billing_address_2_field{
+                                label{
+                                    width: auto !important;
+                                }
+                            }
+                            
+                            .woocommerce-billing-fields__field-wrapper{
+                                .form-row{
+                                    overflow: hidden;
+                                    padding-left: 200px;
+                                    margin: 0 0 30px;
+                                    display: block;
+
+                                    label{
+                                        margin-left: -200px;
+                                        font-size: 1.4rem;
+                                        color: #23232c;
+                                        font-weight: 400;
+                                        padding-top: 5px;
+                                        float: left;
+                                        max-width: 100%;
+                                        margin-bottom: 5px;
+                                    }
+
+                                    span{
+                                        .input-text {
+                                            outline: none;
+                                            border-radius: 0;
+                                            border: 0;
+                                            font-size: 16px;
+                                            color: #23232c;
+                                            border-bottom: 2px solid #f1f2f4;
+                                            padding: 5px 0;
+                                        }
+                                    }
+                                }
+
+                                .form-row-first{
+                                    width: 100%;
+                                    float: none;
+                                }
+
+                                .form-row-last{
+                                    width: 100%;
+                                    float: none;
+                                }
+
+                                .validate-required{
+                                    span{
+                                        span{
+                                            .select2-selection.select2-selection--single{
+                                                border: 0;
+                                                border-radius: 0;
+                                                border-bottom: 2px solid #e4e6eb;
+
+                                                span{
+                                                    font-size: 1.4rem;
+                                                    color: #909097;
+                                                    font-weight: 400;
+                                                }
+
+                                                .select2-selection__rendered{
+                                                    color: #444;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .col-2{
+                        float: none;
+                        width: 100%;
+                        max-width: 100%;
+                        padding: 0;
+                        padding-top: 30px;
+
+                        .woocommerce-additional-fields{
+                            h3{
+                                text-align: center;
+                                padding-bottom: 30px;
+                            }
+
+                            .woocommerce-additional-fields__field-wrapper{
+                                .form-row.notes{
+                                    display: block;
+                                    margin: 0 0 30px;
+
+                                    label{
+                                        font-size: 1.4rem;
+                                        color: #23232c;
+                                        font-weight: 400;
+                                        padding-top: 5px;
+                                        line-height: 2;
+                                        margin: 0 0 20px;
+
+                                        span{
+                                            font-size: 1.4rem;
+                                            color: #23232c;
+                                            font-weight: 400;
+                                            padding-top: 5px;
+                                            line-height: 2;
+                                        }
+                                    }
+
+                                    span{
+                                        .input-text {
+                                            font-size: 16px;
+                                            border: 0;
+                                            outline: none;
+                                            color: #23232c;
+                                            border-radius: 0;
+                                            border-bottom: 2px solid #e4e6eb;
+                                            line-height: 1.5;
+
+                                            &:focus{
+                                                border-color: #23232c;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .check{
+                .woocommerce-checkout-review-order{
+                    padding: 10px 20px;
+                    background-color: #f9f9f9;
+                    border: 0;
+
+                    .shop_table.woocommerce-checkout-review-order-table{
+                        border: 0;
+                        border-radius: 0;
+                        border-bottom: 1px solid #eaebee;
+                        margin: 0;
+                        border-spacing: 0;
+
+                        tbody{
+                            .cart_item{
+                                border-collapse: 0;
+
+                                &:first-child{
+                                   td{
+                                       border: 0;
+                                   }
+                                }
+
+                                td{
+                                    padding: 20px 0;
+                                    border-top: 1px solid rgba(0,0,0,.1);
+                                }
+
+                                .product-name{
+                                    display: flex;
+                                    flex: 1;
+                                    align-items: center;
+
+                                    a{
+                                        display: block;
+
+                                        img{
+                                            max-width: 100px;
+                                        }
+                                    }
+
+                                    div{
+                                        margin-left: 0.5em;
+                                        font-size: 1.4rem;
+                                        color: #23232c;
+                                        font-weight: 400;
+                                        line-height: 1.5em;
+
+                                        .variation{
+                                            .variation-Kchthc{
+                                                font-size: 1rem;
+                                                color: #23232c;
+                                                font-weight: 400;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .product-quantity{
+                                    width: 30px;
+
+                                    strong{
+                                        font-size: 1.4rem;
+                                        font-weight: 500;
+                                        color: #909097;
+                                    }
+                                }
+
+                                .product-total{
+                                    span{
+                                        bdi{
+                                            font-size: 1.4rem;
+                                            color: #23232c;
+                                            font-weight: 500;
+
+                                            span{
+                                                font-size: 1.4rem;
+                                                color: #23232c;
+                                                font-weight: 500;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        tfoot{
+                            tr{
+                                th{
+                                    font-size: 1.4rem;
+                                    color: #23232c;
+                                    font-weight: 400;
+                                    text-transform: uppercase;
+                                    border-top: 1px solid rgba(0,0,0,.1);
+                                    padding: 20px 0;
+                                }
+
+                                td{
+                                    border-top: 1px solid rgba(0,0,0,.1);
+                                    padding: 20px 0;
+
+                                    ul{
+                                        margin: 0;
+
+                                        li{
+                                            label{
+                                                font-size: 1.4rem;
+                                                color: #23232c;
+                                                font-weight: 500;
+                                            }
+                                        }
+                                    }
+
+                                    span{
+                                        bdi{
+                                            font-size: 1.4rem;
+                                            color: #23232c;
+                                            font-weight: 500;
+
+                                            span{
+                                                font-size: 1.4rem;
+                                                color: #23232c;
+                                                font-weight: 500;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                   #payment{
+                        background: 0 0 ;
+                        border-radius: 0;
+
+                        .wc_payment_methods.payment_methods.methods{
+                            padding: 0;
+                            border: 0;
+                            margin-bottom: 30px;
+
+                            li{
+                                line-height: 2;
+                                text-align: left;
+                                margin: 0;
+                                font-weight: 400;
+                                border-bottom: 1px solid #eaebee;
+                                padding: 30px 0;
+
+                                .input-radio{
+                                    display: none;
+
+                                    &:checked{
+                                        &+label{
+                                            &::before{
+                                                border-color: #23232c;
+                                                background-color: #fff;
+                                            }
+
+                                            &::after{
+                                                display: block;
+                                                border-color: #23232c;
+                                            }
+                                        }
+                                    }
+                                }
+
+                                label{
+                                    color: #23232c;
+                                    font-weight: 400;
+                                    text-transform: uppercase;
+                                    padding-left: 44px;
+                                    position: relative;
+                                    cursor: pointer;
+                                    font-size: 1.4rem;
+
+                                    &::before{
+                                        content: '';
+                                        position: absolute;
+                                        width: 24px;
+                                        height: 24px;
+                                        left: 0;
+                                        top: -2px;
+                                        border: 1px solid #e4e6eb;
+                                        background-color: #e4e6eb;
+                                    }
+
+                                    &::after{
+                                        content: '';
+                                        position: absolute;
+                                        border-left: 2px solid #e4e6eb;
+                                        border-bottom: 2px solid #e4e6eb;
+                                        width: 12px;
+                                        height: 6px;
+                                        left: 6px;
+                                        top: 6px;
+                                        transform: rotate(-45deg);
+                                        display: none;
+                                    }
+                                }
+
+                                div{
+                                    background-color: transparent;
+                                    padding: 0;
+                                    margin: 0;
+                                    margin-top: 20px;
+
+                                    &::before{
+                                        content: none;
+                                    }
+
+                                    p{
+                                        font-size: 1.4rem;
+                                        color: #909097;
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                        }
+
+                        .form-row.place-order{
+                            display: block;
+                            padding: 0;
+                            margin: 0 0 30px;
+
+                            .woocommerce-terms-and-conditions-wrapper{
+                                display: none;
+                            }
+
+                            .button.alt{
+                                display: block;
+                                text-transform: uppercase;
+                                width: 100%;
+                                line-height: 80px;                            
+                                background: #d45757;
+                                color: #fff;
+                                outline: none;
+                                box-shadow: none;
+                                font-weight: 400;
+                                border-radius: 0;
+                                font-size: 1.4rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .woocommerce-order{
+            .woocommerce-notice.woocommerce-notice--success.woocommerce-thankyou-order-received{
+                font-size: 1.3rem;
+                font-weight: 400;
+                color: #909097;
+                margin-bottom: 20px;
+            }
+
+            .woocommerce-order-overview.woocommerce-thankyou-order-details.order_details{
+                margin-bottom: 50px;
+
+                li{
+                    font-size: 1rem;
+                    font-weight: 400;
+                    color: #909097;
+
+                    strong{
+                        color: #515151;
+                        font-size: 1.4rem;
+                        font-weight: 500;
+
+                        span{
+                            bdi{
+                                color: #515151;
+                                font-size: 1.4rem;
+                                font-weight: 500;
+
+                                span{
+                                    color: #515151;
+                                    font-size: 1.4rem;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .woocommerce-order-details{
+                h2{
+                    margin-bottom: 20px;
+                    font-size: 2.5rem;
+                    font-weight: 400;
+                }
+
+                .woocommerce-table.woocommerce-table--order-details.shop_table.order_details{
+                    border: 0;
+                    border-radius: 0;
+                    border-spacing: 0;
+
+                    thead{
+                        tr{
+                            th{
+                                padding: 20px 0;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+                            }
+                        }
+                    }
+
+                    tbody{
+                        tr{
+                            td{
+                                padding: 20px 0;
+                                font-size: 1.4rem;
+                                font-weight: 400;
+
+                                span{
+                                    bdi{
+                                        font-size: 1.6rem;
+                                        font-weight: 400;
+                                        color: #212529;
+
+                                        span{
+                                            font-size: 1.6rem;
+                                            font-weight: 400;
+                                            color: #212529;
+                                        }
+                                    }
+                                }
+
+                                a{
+                                    text-decoration: none;
+                                    font-size: 1.6rem;
+                                    font-weight: 400;
+                                    color: #212529;
+                                }
+
+                                strong{
+                                    font-size: 1.6rem;
+                                    font-weight: 400;
+                                    color: #909097;
+                                }
+
+                                ul{
+                                    padding: 0;
+
+                                    li{
+                                        strong{
+                                            font-size: 1.6rem;
+                                            font-weight: 400;
+                                            color: #212529;
+                                        }
+
+                                        p{
+                                            font-size: 1.6rem;
+                                            font-weight: 400;
+                                            color: #212529;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    tfoot{
+                        tr{
+                            th{
+                                padding: 20px 0;
+                                font-size: 1.6rem;
+                                font-weight: 500;
+                            }
+
+                            td{
+                                padding: 20px 0;
+                                font-size: 1.6rem;
+                                font-weight: 500;
+
+                                span{
+                                    font-size: 1.6rem;
+                                    font-weight: 500;
+
+                                    span{
+                                        font-size: 1.6rem;
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.select2-container.select2-container--default.select2-container--open{
+    .select2-dropdown.select2-dropdown--below{
+        top: 34px;
+        box-shadow: 0 4px 10px 0 rgb(3 3 3 / 10%);
+        border: 1px solid #f1f2f4;
+
+        .select2-search.select2-search--dropdown{
+            .select2-search__field{
+                outline: none;
+                border: 0;
+                border-radius: 0;
+                border-bottom: 2px solid #f1f2f4!important;
+                color: #111;
+                font-size: 1.6rem;
+                font-weight: 400;
+
+                &:focus{
+                    border-bottom-color:#23232c!important;
+                }
+            }
+        }
+
+        .select2-results{
+            ul{
+                li{
+                    padding: 6px;
+                    color: #7c7c80;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+
+                    &:hover{
+                        background-color: #23232c;
+                        color: white;
+                    }
+                }
+
+                .select2-results__option--highlighted{
+                    background-color: #23232c;
+                    color: white;
+                }
+            }
+        }
+    }
+
+    .select2-dropdown.select2-dropdown--above{
+        top: 34px;
+        box-shadow: 0 4px 10px 0 rgb(3 3 3 / 10%);
+        border: 1px solid #f1f2f4;
+
+        .select2-search.select2-search--dropdown{
+            .select2-search__field{
+                outline: none;
+                border: 0;
+                border-radius: 0;
+                border-bottom: 2px solid #f1f2f4!important;
+                color: #111;
+                font-size: 1.6rem;
+                font-weight: 400;
+
+                &:focus{
+                    border-bottom-color:#23232c!important;
+                }
+            }
+        }
+
+        .select2-results{
+            ul{
+                li{
+                    padding: 6px;
+                    color: #7c7c80;
+                    font-size: 1.4rem;
+                    font-weight: 400;
+
+                    &:hover{
+                        background-color: #23232c;
+                        color: white;
+                    }
+                }
+
+                .select2-results__option--highlighted{
+                    background-color: #23232c;
+                    color: white;
+                }
+            }
+        }
+    }
+}
